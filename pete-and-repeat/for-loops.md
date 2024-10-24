@@ -104,10 +104,11 @@ for word in ['cat', 'dog']:
 
 - a. How many times does 'Start' get printed in Program 3?
 - b. What determines which lines are part of the loop?
-- c.. What will Program 4 print? Be exact. 10. Based on all examples so far, describe in your own words what a for loop does.
-
+- c.. What will Program 4 print? Be exact.
 <!--
+
 # Explanation
+
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/JP7ITIXGpHk?start=234&end=1426" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Notes to capture:
@@ -121,6 +122,7 @@ Notes to capture:
 - syntax for a list
 - when does a programmer use the variable "\_" -->
 <!--
+
 # Part 4: Practice (20-60 minutes)
 
 Students write the output for each program:
