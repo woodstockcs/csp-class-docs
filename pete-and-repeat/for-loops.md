@@ -7,9 +7,9 @@ layout: default
 
 # For Loops
 
-## Warm-up Questions (5 minutes)
+# Part 1 Warmup (5 minutes)
 
-### Question 1: Prior Knowledge - While Loops
+## 1.1
 
 ```python
 count = 0
@@ -18,9 +18,9 @@ while count < 3:
     count = count + 1
 ```
 
-**Q:** How many times will this code print "Hello"?
+**Question:** How many times will this code print "Hello"?
 
-### Question 2: Variable Updates
+## 1.2
 
 ```python
 friend = "Alice"
@@ -29,9 +29,9 @@ friend = "Bob"
 print("Hello", friend)
 ```
 
-**Q:** What will this code print?
+**Question:** What will this code print?
 
-### Question 3: The "Headache"
+## 1.3
 
 ```python
 # We want to say hello to 5 friends:
@@ -44,11 +44,11 @@ while count < 5:
     count = count + 1
 ```
 
-**Q:** Using only what we know about while loops and variables, how could we solve this? What makes it awkward or difficult?
+**Question:** Using only what we know about while loops and variables, how could we solve this? What makes it awkward or difficult?
 
-# Guided Code Reading: Understanding For Loops (15 minutes)
+# Part 2. Predictions (15 minutes)
 
-## Example Set A: Basic Pattern
+## 2.1
 
 ```python
 for friend in ['Joseph', 'Glenn', 'Sally']:
@@ -56,27 +56,33 @@ for friend in ['Joseph', 'Glenn', 'Sally']:
 print('Done!')
 ```
 
-Questions:
+**Questions:**
 
-1. What gets printed to the screen? Write down the exact output.
-2. How many times does the indented line run?
-3. What happens to the variable 'friend' during each run?
+- a. What gets printed to the screen? Write down the exact output.
+- b. How many times does the indented line run?
+- c. What happens to the variable 'friend' during each run?
 
-## Example Set B: Variations
+## 2.2
 
 ```python
 # Program 1
 for letter in 'Hi!':
     print(letter)
+```
 
+```python
 # Program 2
 for number in [1, 2, 3]:
     print('Count:', number)
 ```
 
-Questions: 4. What's similar about how these two programs work? 5. What kinds of things can we put after the word 'in'? 6. In Program 1, what value does 'letter' have during each run?
+**Questions:**
 
-## Example Set C: Loop Body
+- a. What's similar about how these two programs work?
+- b. What kinds of things can we put after the word 'in'?
+- c. In Program 1, what value does 'letter' have during each run?
+
+## 2.3
 
 ```python
 # Program 3
@@ -85,17 +91,23 @@ for num in [1, 2]:
     print(num)
     print('End')
 print('All done')
+```
 
+```python
 # Program 4
 for word in ['cat', 'dog']:
     answer = word + '!'
     print(answer)
 ```
 
-Questions: 7. How many times does 'Start' get printed in Program 3? 8. What determines which lines are part of the loop? 9. What will Program 4 print? Be exact. 10. Based on all examples so far, describe in your own words what a for loop does.
+**Questions:**
 
+- a. How many times does 'Start' get printed in Program 3?
+- b. What determines which lines are part of the loop?
+- c.. What will Program 4 print? Be exact. 10. Based on all examples so far, describe in your own words what a for loop does.
+
+<!--
 # Explanation
-
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/JP7ITIXGpHk?start=234&end=1426" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Notes to capture:
@@ -107,11 +119,9 @@ Notes to capture:
 - two ways of incrementing (adding 1 to a variable)
 - relationship between a for loop and a list
 - syntax for a list
-- when does a programmer use the variable "\_"
-
-# For Loop Practice
-
-## Part 1: Prediction Practice (5 minutes)
+- when does a programmer use the variable "\_" -->
+<!--
+# Part 4: Practice (20-60 minutes)
 
 Students write the output for each program:
 
@@ -245,4 +255,4 @@ for letter in "bye":
 Write:
 
 1. The output
-2. One question you still have about for loops
+2. One question you still have about for loops -->
