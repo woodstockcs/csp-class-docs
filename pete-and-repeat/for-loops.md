@@ -105,3 +105,85 @@ for word in ['cat', 'dog']:
 - a. How many times does 'Start' get printed in Program 3?
 - b. What determines which lines are part of the loop?
 - c. What will Program 4 print? Be exact.
+
+# Part 3. Lecture Notes (15 minutes)
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/-7xg8pGcP6w?start=980&end=1395" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+# Part 4. Practice
+
+## 4.1
+
+```python
+# Program 1
+for x in "wow":
+    print("*")
+
+# Program 2
+for x in "wow":
+    print(x)
+
+# Program 3
+for x in "wow":
+    print(x + "!")
+```
+
+**Question:** What is the output of these 3 programs?
+
+## 4.2
+
+```python
+# template
+for _____ in ['a', 'b', 'c']:
+    ________________
+```
+
+**Question:** Adapt the template code (just above) to print this:
+
+```python
+hello a
+hello b
+hello c
+```
+
+## 4.3
+
+**Question:** Write a for loop that prints:
+
+```
+1 Mississippi
+2 Mississippi
+3 Mississippi
+4 Mississippi
+5 Mississippi
+```
+
+## 4.4
+
+**Question:** Use a for loop to make python print this pattern:
+
+(Hint: you can multiply strings! Example: `"ha" * 3` gives `"hahaha"`)
+
+```python
+*
+**
+***
+****
+```
+
+**Bonus Challenge:** Use a for loop to print one of these patterns:
+
+```python
+   *
+  **
+ ***
+****
+```
+
+```python
+  *
+ ***
+*****
+ ***
+  *
+```
