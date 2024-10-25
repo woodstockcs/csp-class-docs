@@ -115,39 +115,36 @@ print("Wow" + exclamations)
 
 # Part 4. Practice
 
-## 4.1 Cookie Counter
-
-You're helping at a bake sale. Create a program that:
-
-- Takes a list of cookie sales per hour [12, 8, 15, 13, 7]
-- Calculates and prints the total cookies sold
-- Counts how many hours had sales above 10 cookies
-- Finds the hour with the least sales
-
-## 4.2 DNA Scanner
-
-Scientists need help analyzing DNA sequences. Write a program that:
-
+## 4.1 Beginning: Step Counter
 ```python
-dna = "AACTGCTA"
-# Count how many times 'A' appears
-# Build a new string with all 'A's replaced by 'T's
+steps = [1089, 7392, 5324, 8543]
+# Calculate total steps taken
 ```
+Hint: This uses the running total pattern. Start with total = 0.
 
-## 4.3 Password Strength
-
-Create a password scoring system:
-
+## 4.2 Approaching: Score Tracker
 ```python
-password = "H3llo!World"
-score = 0
-# Add 1 point for each character
-# Add 2 bonus points for each number
-# Add 3 bonus points for each symbol (!@#$%^&*()?)
-# Print the final score
+scores = [88, 92, 85, 95, 88]
+# Count how many scores are at least 90
+# Print the number of A grades
 ```
+Hint: Use a counter starting at 0, add 1 each time you find a score >= 90.
+## 4.3 Proficient: Word Formatter
+```python
+word = "PYTHON"
+# Create a string that puts dots between each letter
+# Should print: P.Y.T.H.O.N
+```
+Hint: Build the string one character at a time. Think about when to add the dots.
+## 4.4 Distinguished: Shopping Cart
+```python
+items = ["apple", "banana", "apple", "orange", "banana", "apple"]
+# Count how many of each item is in the cart
+# Print: "apple: 3, banana: 2, orange: 1"
+```
+Hint: You'll need to combine patterns. Consider keeping track of unique items as you find them.
 
-## 4.4 Train Route Builder
+## Optional Bonus Challenge
 
 **Question:** Use loops to build this train route display:
 
@@ -159,7 +156,7 @@ score = 0
 [Start] --> Albany --> Boston --> Chicago --> Detroit
 ```
 
-**Bonus Challenge:** Modify your code to also print the return journey:
+**Bonus Bonus Challenge:** Modify your code to also print the return journey:
 
 ```
 Detroit --> Chicago --> Boston --> Albany --> [Start]
