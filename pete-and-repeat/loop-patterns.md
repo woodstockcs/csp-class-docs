@@ -112,6 +112,7 @@ print("Wow" + exclamations)
 - c. Why do we need to add the space " " in Program 1?
 
 # Part 3. Explanation (15 minutes)
+Check out the patterns [here](https://www.online-python.com/AFv5bq7Spy).
 
 # Part 4. Practice
 
