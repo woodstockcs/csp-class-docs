@@ -228,3 +228,43 @@ print("green" in colors)
 - Check membership: `if item in my_list:`
 
 # Part 4. Practice
+
+Create a file called `lists-intro.py` and do the following coding exercises in it.
+
+### 4.1 Creating Lists
+- Create a list called `weekdays` containing the names of the five weekdays.
+- Then print the list.
+- Then use list indexing to print a sentence that tells us your favorite weekday.
+
+### 4.2 Accessing Elements
+```python
+numbers = [10, 20, 30, 40, 50]
+# Use indexing to print:
+# First number
+# Last number
+# Middle number
+```
+
+### 4.3 Working with Lists
+```python
+temperatures = [72, 75, 73, 71, 74]
+# Print the number of temperatures
+# Print whether 76 is in the list
+# Change the last temperature to 77
+```
+
+### 4.4 Challenge
+```python
+# Create a list representing a tic-tac-toe board
+# ["-", "-", "-"]
+# ["-", "X", "-"]
+# ["-", "-", "-"]
+# Then change the center position to "O"
+```
+
+**Bonus Challenge:** Print the board so it looks like this:
+```
+- - -
+- O -
+- - -
+```
