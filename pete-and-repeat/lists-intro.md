@@ -66,7 +66,7 @@ for friend in ______:
 
 # Part 2. Predictions (15 minutes)
 
-### 2.1
+## 2.1
 
 ```python
 # Program A
@@ -103,7 +103,7 @@ print("OK:", grades[1])
 # ...
 ```
 
-**### 2.6 Negative Indexing**
+## 2.2
 
 ```python
 # Program A
@@ -136,7 +136,7 @@ print(colors[-3])
 # ...
 ```
 
-**### 2.7 Modifying Lists**
+## 2.3
 
 ```python
 # Program A
@@ -172,7 +172,7 @@ print("After:", pets)
 # ...
 ```
 
-**### 2.8 Membership Testing**
+## 2.4
 
 ```python
 # Program A
@@ -231,12 +231,12 @@ print("green" in colors)
 
 Create a file called `lists-intro.py` and do the following coding exercises in it.
 
-### 4.1 Creating Lists
+## 4.1 Creating Lists
 - Create a list called `weekdays` containing the names of the five weekdays.
 - Then print the list.
 - Then use list indexing to print a sentence that tells us your favorite weekday.
 
-### 4.2 Accessing Elements
+## 4.2 Accessing Elements
 ```python
 numbers = [10, 20, 30, 40, 50]
 # Use indexing to print:
@@ -245,7 +245,7 @@ numbers = [10, 20, 30, 40, 50]
 # Middle number
 ```
 
-### 4.3 Working with Lists
+## 4.3 Working with Lists
 ```python
 temperatures = [72, 75, 73, 71, 74]
 # Print the number of temperatures
@@ -253,7 +253,7 @@ temperatures = [72, 75, 73, 71, 74]
 # Change the last temperature to 77
 ```
 
-### 4.4 Challenge
+## 4.4 Challenge
 ```python
 # Create a list representing a tic-tac-toe board
 # ["-", "-", "-"]
