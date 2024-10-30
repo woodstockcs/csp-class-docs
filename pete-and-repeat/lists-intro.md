@@ -229,7 +229,6 @@ print("green" in colors)
 
 # Part 4. Practice
 
-Create a file called `lists-intro.py` and do the following coding exercises in it.
 
 ## 4.1 Approaching
 - Create a list called `weekdays` containing the names of the five weekdays.
