@@ -231,40 +231,51 @@ print("green" in colors)
 
 Create a file called `lists-intro.py` and do the following coding exercises in it.
 
-## 4.1 Creating Lists
+## 4.1 Approaching
 - Create a list called `weekdays` containing the names of the five weekdays.
 - Then print the list.
 - Then use list indexing to print a sentence that tells us your favorite weekday.
 
-## 4.2 Accessing Elements
-```python
-numbers = [10, 20, 30, 40, 50]
-# Use indexing to print:
-# First number
-# Last number
-# Middle number
+## 4.2 Proficient
 ```
-
-## 4.3 Working with Lists
-```python
 temperatures = [72, 75, 73, 71, 74]
-# Print the number of temperatures
-# Print whether 76 is in the list
-# Change the last temperature to 77
+# 1. Print the number of temperatures
+# 2. Print whether 76 is in the list
+# 3. Change the last temperature to 77
+# 4. Print the first three temperatures only
+# 5. Check if 71 and 77 are both in the list
+
+names = ["Alice", "Bob", "Charlie", "Diana"]
+# 1. Add your name to the beginning
+# 2. Replace "Charlie" with "Chuck"
+# 3. Check if the list has exactly 4 names
+# 4. Print the second letter of the first name
+# 5. Print the last letter of the last name
+
 ```
 
-## 4.4 Challenge
+## 4.3 Distinguished
 ```python
-# Create a list representing a tic-tac-toe board
+# Create a set of list representing a tic-tac-toe board
 # ["-", "-", "-"]
 # ["-", "X", "-"]
 # ["-", "-", "-"]
 # Then change the center position to "O"
+# Print the board so it looks like this:
+#
+# - - -
+# - O -
+# - - -
 ```
 
-**Bonus Challenge:** Print the board so it looks like this:
+## 4.4 Super Extra Chellenge
 ```
-- - -
-- O -
-- - -
+songs = ["Song1", "Song2", "Song3", "Song4"]
+durations = [3.5, 4.0, 3.0, 4.5]
+# Write code to:
+# 1. Print each song with its duration
+# 2. Find the total playlist duration
+# 3. Find the longest song
+# 4. Add a new song and duration
+# 5. Remove the shortest song
 ```
