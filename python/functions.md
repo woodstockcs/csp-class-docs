@@ -82,7 +82,7 @@ Less Comfy
 1. Write a python program that:
    - [ ] Asks the user for two numbers
    - [ ] Prints the result of adding those numbers together
-<script src="https://asciinema.org/a/bJMOlPe5F4mFLY0Rl6fiJSOp3.js" id="asciicast-bJMOlPe5F4mFLY0Rl6fiJSOp3" async data-start-at="25" data-speed="2" data-theme="solarized-dark"></script>
+<script src="https://asciinema.org/a/SIFEFvSpKEJXSP1PKjDiVHTJn.js" id="asciicast-SIFEFvSpKEJXSP1PKjDiVHTJn" async="true"></script>
 ---
 
 ### Hello 2
