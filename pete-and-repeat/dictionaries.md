@@ -250,23 +250,20 @@ What TWO things is this code checking for?
 
 13. How does the `count_items()` function calculate the total number of all items in the inventory? What dictionary method does it use?
 
-14. In the main menu's "Add items" option, why do we need both these checks?
+14. What is printed?
 ```python
-try:
-    quantity = int(input("Enter quantity: "))
-    if quantity <= 0:
-        print("Quantity must be positive!")
-        continue
+add_item("notebook", 5)
+print(remove_item("notebook", 3))
+print(remove_item("notebook", 3))
 ```
 
-15. What's the difference between these two approaches to checking quantities:
+15. What's different and similar between these two approaches to checking quantities:
 ```python
-# Approach 1:
 if item in inventory:
     if inventory[item] >= quantity:
         # do something
-
-# Approach 2:
+```
+```python
 if item in inventory and inventory[item] >= quantity:
     # do something
 ```
@@ -289,8 +286,37 @@ if inventory[item] < quantity:
 ```python
 print(f"{'✓' if passed else '✗'} {name}")
 ```
-This is an f-string with a conditional expression. Explain how it decides which symbol to print.
+- This is an f-string with a conditional expression. Explain how it decides which symbol to print.
 
-20. The program uses dictionary methods like `.items()`, `.get()`, and `.values()`. For each method:
-- Where is it used in the code?
-- What would break if we tried to use these methods on a list instead of a dictionary?
+20. Look at the code below. Some people think `Pencil` and `pencil` should be treated as the same item, and counted as 5 in the code below. What do you think: should they be handled as the same? How would you update the code to do this?
+```python
+add_item("Pencil", 3)
+add_item("pencil", 2)
+list_items()
+# Shows:
+# Pencil: 3
+# pencil: 2
+```
+
+21. Look at this part of the `run_tests()` function:
+```python
+def run_test(name, actual, expected):
+    """Helper function to run a single test"""
+    passed = actual == expected
+    print(f"{'✓' if passed else '✗'} {name}")
+    if not passed:
+        print(f"  Expected: {expected}")
+        print(f"  Got: {actual}")
+    return passed
+```
+What's unusual about this? Why is there a function defined inside another function? What do you think "Helper function" means?
+
+22. Look at the text between triple quotes after each function definition:
+```python
+def add_item(item, quantity):
+    """
+    Add items to inventory or increase quantity if item exists
+    Returns True if successful
+    """
+```
+What do you think these triple-quoted strings are for? Why are they placed right after the function definition?
