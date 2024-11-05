@@ -142,3 +142,82 @@ def main():
 
 main()
 ```
+
+# Code Review Checklist
+Reviewer Name: _________________
+Code Author: _________________
+
+## 1. Built-in Tests (Option 6)
+When you run the tests, you should see:
+- [ ] add_item("sword") returns True
+- [ ] has_item("sword") returns True
+- [ ] has_item("shield") returns False
+- [ ] list_items() shows only "sword"
+- [ ] count_items() returns 1
+- [ ] remove_item("sword") returns True
+- [ ] remove_item("shield") returns False
+
+## 2. Try These Manual Tests
+Run through this exact sequence:
+
+1. Pack your camping gear:
+   - [ ] Add "tent"
+   - [ ] Add "flashlight"
+   - [ ] Add "matches"
+   - [ ] List items (should show all 3)
+
+2. Get ready for rain:
+   - [ ] Add "umbrella" 
+   - [ ] Check if you have "raincoat" (should say no)
+   - [ ] Count items (should show 4)
+
+3. Use some items:
+   - [ ] Remove "matches" (used at campfire)
+   - [ ] Remove "umbrella" (left in car)
+   - [ ] List items (should show remaining 2)
+
+4. Pack snacks:
+   - [ ] Add "granola"
+   - [ ] Add "granola"
+   - [ ] Add "granola"
+   - [ ] Count items (should show 5)
+   - [ ] Remove "granola" (should remove one)
+   - [ ] List items (should show 4 items, 2 granolas)
+
+5. Try weird stuff:
+   - [ ] Add "trail mix 2.0" (item with spaces/symbols)
+   - [ ] Add "" (empty string)
+   - [ ] Remove "NOT IN BAG" (non-existent item)
+   - [ ] Check for "TENT" (case different from "tent")
+
+## 3. Code Review
+Look at their actual code:
+
+### Function Implementation
+For each function, mark if it's Complete, Partial, or Missing
+- remove_item(): _____ 
+- has_item(): _____
+- list_items(): _____
+- count_items(): _____
+
+### Menu Implementation
+Make sure these menu options work:
+ - [ ] Option 3 (Check for item) - prints "Yes, you have {item}!" or "No, you don't have {item}."
+ - [ ] Option 4 (List all items) - shows current inventory
+ - [ ] Option 5 (Count items) - prints "You have {number} items."
+ - [ ] Option 7 (Quit) - exits program, maybe with a goodbye message, and returns you to the terminal prompt $
+ 
+### Code Quality
+- Variable names make sense? _____
+- Functions are easy to read? _____
+- Code looks well-organized? _____
+- Any clever solutions? _____
+
+## Summary
+A strength of this code is:
+
+
+An improvement could be:
+
+
+Remember: Be specific in your feedback!
