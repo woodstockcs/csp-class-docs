@@ -203,4 +203,94 @@ if __name__ == "__main__":
     main()
 ```
 
-## Reading Questions
+## Code Reading Questions
+
+### Easy
+1. What does `inventory = {}` create at the start of the program? 
+
+2. In `list_items()`, what gets printed if the inventory is empty?
+
+3. If we call `add_item("pencil", 3)`, what will be stored in the inventory dictionary?
+
+4. In the main menu, which option number is used to quit the program?
+
+5. What symbol does the test function print when a test passes? What about when it fails?
+
+### Medium
+6. Look at this code in `has_item()`:
+```python
+return item in inventory and inventory[item] >= quantity
+```
+What are the TWO conditions that must both be true for this to return True?
+
+7. In `remove_item()`, what are the TWO conditions that cause the function to return False?
+
+8. Find where user input is converted to a number. What Python function is used for this conversion?
+
+9. In the main menu, what happens if a user enters "8" as their choice?
+
+10. What is the purpose of this line in `remove_item()`?
+```python
+if inventory[item] == 0:
+    del inventory[item]
+```
+
+### Harder
+11. Look at this code from `main()`:
+```python
+try:
+    quantity = int(input("Enter quantity: "))
+    if quantity <= 0:
+        print("Quantity must be positive!")
+        continue
+```
+What TWO things is this code checking for?
+
+12. The `run_test()` function inside `run_tests()` takes three parameters: `name`, `actual`, and `expected`. What is the purpose of each one?
+
+13. How does the `count_items()` function calculate the total number of all items in the inventory? What dictionary method does it use?
+
+14. In the main menu's "Add items" option, why do we need both these checks?
+```python
+try:
+    quantity = int(input("Enter quantity: "))
+    if quantity <= 0:
+        print("Quantity must be positive!")
+        continue
+```
+
+15. What's the difference between these two approaches to checking quantities:
+```python
+# Approach 1:
+if item in inventory:
+    if inventory[item] >= quantity:
+        # do something
+
+# Approach 2:
+if item in inventory and inventory[item] >= quantity:
+    # do something
+```
+
+### Most Challenging
+16. The program maintains a count of passed tests in `run_tests()`. Find all the places where `tests_passed` is modified. What is the purpose of the `+=` operator here?
+
+17. When removing items, the code checks conditions in this order:
+```python
+if item not in inventory:
+    return False
+if inventory[item] < quantity:
+    return False
+```
+ - Why is this order important? What could go wrong if we checked the quantity first?
+
+18. In `run_tests()`, why do we need to call `inventory.clear()` at the start of the tests?
+
+19. Look at how the test results are displayed:
+```python
+print(f"{'✓' if passed else '✗'} {name}")
+```
+This is an f-string with a conditional expression. Explain how it decides which symbol to print.
+
+20. The program uses dictionary methods like `.items()`, `.get()`, and `.values()`. For each method:
+- Where is it used in the code?
+- What would break if we tried to use these methods on a list instead of a dictionary?
