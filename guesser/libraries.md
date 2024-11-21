@@ -35,3 +35,28 @@ python greet.py David
 - Steps to use a new library:
 
 ## Practice
+
+### Hello Argument
+```python
+# Create a program that:
+# 1. Takes a name as command line argument
+# 2. Prints "Hello, [name]!" if a name is provided
+# 3. Prints "Hello, world!" if no name is provided
+```
+
+### Hello Cowsay
+```python
+# Create a program that:
+# 1. Uses the cowsay library
+# 2. Asks the user their name using input()
+# 3. Makes the cow say "Nice to meet you, [name]!"
+```
+
+### QR
+```python
+# Create a program that:
+# 1. Takes a URL as command line argument
+# 2. Generates a QR code for that URL
+# 3. Saves it as "website.png"
+# 4. Handles errors appropriately
+```
