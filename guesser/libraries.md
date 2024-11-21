@@ -5,7 +5,19 @@ nav_order: 1
 layout: default
 ---
 
-# Sandbox
+## Sandbox
+```python
+# Try running this as:
+#   python program.py
+#   python program.py David
+#   python program.py Hello World
+
+from sys import argv
+print("Number of arguments:", len(argv))
+print("Arguments are:", argv)
+print("The first one is:", argv[0])
+
+```
 
 ## Notes
 Watch [this video](https://youtu.be/EHi0RDZ31VA?si=T0z9_GFoLex5bZ7g&t=7185).
