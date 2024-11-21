@@ -1,7 +1,7 @@
 ---
 title: Libraries
+parent: Guesser
 nav_order: 1
-has_children: true
 layout: default
 ---
 
@@ -21,8 +21,5 @@ python greet.py David
 - Two ways to import from sys:
 
 - Steps to use a new library:
-
-
-## Notes
 
 ## Practice
