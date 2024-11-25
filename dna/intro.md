@@ -31,3 +31,4 @@ Follow the instructions inside "Download the distribution code" [linked here](ht
 ## Sample solution Code
 Study the sample solution code [linked here](https://docs.google.com/document/d/1uEKkKnHvat5I9iBBJ1sz58rK8TULenc6e44r36M6vcs/edit?usp=sharing).
 
+And follow the Code Reading Prompts [linked here](https://docs.google.com/document/d/1BlMp2PIwrkTWeEegGvziYuGPPux_anRygBvJdiRb_l0/edit?usp=sharing).
