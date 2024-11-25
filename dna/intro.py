@@ -1,5 +1,5 @@
 ---
-title: DNA Intro
+title: Intro
 parent: DNA
 nav_order: 1
 layout: default
