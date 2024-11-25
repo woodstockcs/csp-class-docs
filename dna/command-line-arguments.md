@@ -40,9 +40,11 @@ And take notes on [this doc](https://docs.google.com/document/d/1tYE56_PYmzqzeV2
 ## Exercises
 
 ### dna/hello.py
-If you are feeling: {: .d-inline-block }
+If you are feeling:
+{: .d-inline-block }
 
-Less Comfortable {: .label .label-green }
+Less Comfortable
+{: .label .label-yellow }
 ```python
 # Create a program that:
 # - Takes a name as command line argument
@@ -51,7 +53,8 @@ Less Comfortable {: .label .label-green }
 ```
 
 ### dna/dna.py
-Required Project Update {: .label .label-red }
+Required Project Update
+{: .label .label-red }
 ```python
 # - Open the dna.py file provided in the distribution code.
 # - Under "Check for command-line usage", write a Guard Clause
@@ -60,9 +63,11 @@ Required Project Update {: .label .label-red }
 ```
 
 ### dna/repeat.py
-If you are feeling: {: .d-inline-block }
+If you are feeling:
+{: .d-inline-block }
 
-More Comfortable {: .label .label-yellow }
+More Comfortable
+{: .label .label-blue }
 ```python
 # Create a program that:
 # - Accept a word and number (e.g. "python repeat.py hello 3")
@@ -72,9 +77,11 @@ More Comfortable {: .label .label-yellow }
 ```
 
 ### dna/calculator.py
-If you are feeling: {: .d-inline-block }
+If you are feeling:
+{: .d-inline-block }
 
-More Comfortable {: .label .label-yellow }
+More Comfortable
+{: .label .label-blue }
 ```python
 # Create a program that:
 # - Accept 3 args: two numbers and an operator (+,-,*,/)
