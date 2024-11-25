@@ -4,6 +4,7 @@ parent: DNA
 nav_order: 1
 layout: default
 ---
+# DNA Intro
 
 ## Understanding the Problem
 Read the problem description [linked here](https://cs50.harvard.edu/x/2024/psets/6/dna/).
