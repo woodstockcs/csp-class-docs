@@ -1,6 +1,6 @@
 ---
 title: Libraries
-parent: Guesser
+parent: DNA
 nav_order: 2
 layout: default
 ---
