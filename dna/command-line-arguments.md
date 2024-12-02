@@ -4,21 +4,24 @@ parent: DNA
 nav_order: 2
 layout: default
 ---
+
 # Command-Line Arguments
 
-## Goals
+## Purpose
+
 <table>
   <tr>
-    <th>Learning Goal</th>
+    <th>Learning:</th>
     <td>use command-line arguments with error handling</td>
   </tr>
   <tr>
-    <th>Project Goal</th>
+    <th>DNA Project:</th>
     <td>accept two file names as command-line arguments</td>
   </tr>
 </table>
 
 ## Sandbox
+
 ```python
 # Try running this as:
 #   python program.py
@@ -33,18 +36,20 @@ print("The first one is:", argv[0])
 ```
 
 ## Walkthrough
+
 Watch [this video](https://youtu.be/EHi0RDZ31VA?start=7235&end=7426) (2:00:35 - 2:03:46).
 
 And take notes on [this doc](https://docs.google.com/document/d/1tYE56_PYmzqzeV2K0PW0Lw6qhjAlTiHEoL3dY_jp9ug/edit?usp=sharing).
 
 ## Exercises
 
-### dna/hello.py
-If you are feeling:
-{: .d-inline-block }
+<!-- prettier-ignore-start -->
 
-Less Comfortable
-{: .label .label-yellow }
+### 1. hello.py
+{: .d-inline-block }
+Approaching
+{: .label .label-green }
+
 ```python
 # Create a program that:
 # - Takes a name as command line argument
@@ -52,25 +57,23 @@ Less Comfortable
 # - Prints "Hello, [name]!"
 ```
 
-### dna/dna.py
-This one is a:
+### 2. dna.py
 {: .d-inline-block }
+Approaching
+{: .label .label-green }
 
-Required Project Update
-{: .label .label-red }
 ```python
-# - Open the dna.py file provided in the distribution code.
+# Open the dna.py file provided in the distribution code.
 # - Under "Check for command-line usage", write a Guard Clause
 # - If there are not 3 arguments, print a usage message and exit
 # - Print a message indicating the names of the two input files that will be used.
 ```
 
-### dna/repeat.py
-If you are feeling:
+### 3. repeat.py
 {: .d-inline-block }
-
-More Comfortable
+Proficient
 {: .label .label-blue }
+
 ```python
 # Create a program that:
 # - Accept a word and number (e.g. "python repeat.py hello 3")
@@ -79,12 +82,11 @@ More Comfortable
 # - Convert string number to integer safely
 ```
 
-### dna/calculator.py
-If you are feeling:
+### 4. calculator.py
 {: .d-inline-block }
+Distinguished
+{: .label .label-red }
 
-More Comfortable
-{: .label .label-blue }
 ```python
 # Create a program that:
 # - Accept 3 args: two numbers and an operator (+,-,*,/)
@@ -92,3 +94,4 @@ More Comfortable
 # - Use guard clauses for validation
 # - Handle divide-by-zero gracefully
 ```
+<!-- prettier-ignore-end -->
