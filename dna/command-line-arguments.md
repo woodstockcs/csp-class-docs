@@ -47,7 +47,7 @@ for word in sys.argv[1:]:
 
 Now run that program from the command line 4 times, like below.
 
-{: .highlight}
+{: .highlight-title}
 
 > Hint
 >
@@ -95,19 +95,22 @@ Approaching
 1. Update the code according to the comments.
 
 ```python
-# Create a program that:
+# DNA Exercise: hello.py
+# Update the code below so it:
 # - Takes a name as command line argument
 # - Uses a Guard Clause to print a usage message and exit (if needed)
 # - Prints "Hello, [name]!"
+#
+# import sys
+#
+#
 ```
 
 {: .note-title}
 
-> Before continuing:
+> Exercise Note
 >
-> Rename the sketch `Freezing` and save it.
->
-> Then write that name in your sprint notes.
+> What does a Guard Clause do?
 
 <br><br>
 
