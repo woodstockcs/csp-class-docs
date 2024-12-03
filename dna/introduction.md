@@ -1,6 +1,6 @@
 ---
 title: 0. Introduction
-parent: DNA
+parent: DNA Sprint
 nav_order: 1
 layout: default
 ---
