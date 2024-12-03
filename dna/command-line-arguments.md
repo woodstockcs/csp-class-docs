@@ -35,7 +35,7 @@ print("You gave me", len(sys.argv), "command-line arguments.")
 print("The first one is:", sys.argv[0])
 print("The second one is:", sys.argv[1])
 
-if (len(sys.argv) > 3):
+if len(sys.argv) > 3:
     print("Hmm... I don't really want more than 3 arguments.")
     sys.exit()
 
@@ -92,7 +92,7 @@ Now run that program from the command line 4 times, like below.
 
 ### hello.py
 {: .d-inline-block }
-Approaching
+2-Approaching
 {: .label .label-green }
 
 1. Copy/paste the code below into a new file called `hello.py`.
@@ -104,55 +104,93 @@ Approaching
 # - Takes a name as command line argument
 # - Uses a Guard Clause to print a usage message and exit (if needed)
 # - Prints "Hello, [name]!"
-#
-# import sys
-#
-#
+
+import sys
+
+if len(sys._____)  ___  ___:
+    print("Usage: python _____ _____")
+    sys.______
+
+print("Hello", _______)
 ```
 
 {: .note-title}
 
 > Exercise Note
 >
-> What does a Guard Clause do?
+> What happens if the user just runs `python hello.py`?
 
 <br><br>
 
-### 2. dna.py
+### dna.py
 {: .d-inline-block }
-Approaching
-{: .label .label-green }
-
-```python
-# Open the dna.py file provided in the distribution code.
-# - Under "Check for command-line usage", write a Guard Clause
-# - If there are not 3 arguments, print a usage message and exit
-# - Print a message indicating the names of the two input files that will be used.
-```
-
-### 3. repeat.py
-{: .d-inline-block }
-Proficient
+3-Proficient
 {: .label .label-blue }
 
-```python
-# Create a program that:
-# - Accept a word and number (e.g. "python repeat.py hello 3")
-# - Print the word that many times
-# - Use guard clauses for validation
-# - Convert string number to integer safely
-```
+1. Open the dna.py file provided in the distribution code.
+1. Under "# Check for command-line usage", write a Guard Clause that requires 3 arguments to continue. Meaning: If there are **not** 3 arguments, print a usage message and exit
+1. After passing the Guard Clause, show a user-friendly log message indicating the names of the two input files that will be used.
 
-### 4. calculator.py
+{: .note-title}
+
+> Exercise Note
+>
+> Why is it good for a Guard Clause to print a usage message?
+
+<br><br>
+
+### repeat.py
 {: .d-inline-block }
-Distinguished
+4-Distinguished
 {: .label .label-red }
 
+1. Copy/paste the code below into a new file called `repeat.py`.
+1. Write code according to the comments.
+
 ```python
-# Create a program that:
-# - Accept 3 args: two numbers and an operator (+,-,*,/)
-# - Print "Usage: python calculator.py num1 op num2" if invalid
-# - Use guard clauses for validation
-# - Handle divide-by-zero gracefully
+# DNA Exercise: repeat.py
+# - Accepts a word and number (e.g. "python repeat.py hello 3")
+# - Prints the word that many times
+# - Uses guard clauses for validation
+# - Converts string number to integer safely
+
+import sys
+
 ```
+
+{: .note-title}
+
+> Exercise Note
+>
+> What's a code snippet that is important to the functionality of your program?
+
+<br><br>
+
+### calc.py
+{: .d-inline-block }
+5,000 Fake Bonus Points
+{: .label .label-red }
+
+1. Copy/paste the code below into a new file called `calc.py`.
+1. Write code according to the comments.
+
+```python
+# DNA Exercise: calc.py
+# - Accepts 3 args: two numbers and an operator (+,-,*,/)
+# - Uses guard clauses to check that the user provided
+#   a number, a valid operator, and another number
+# - Prints "Usage: python calculator.py num1 op num2" if invalid
+# - Prints the expression and its result
+# - Handles divide-by-zero gracefully
+
+```
+
+{: .note-title}
+
+> Exercise Note
+>
+> How many times does your program contain the keyword `if`?
+
+<br><br>
+
 <!-- prettier-ignore-end -->
