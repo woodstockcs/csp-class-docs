@@ -14,12 +14,12 @@ This DNA Sprint takes 6 class days, and student work during this time produces t
 
 <dl>
   <dt>Daily Score</dt>
-  <dd>the highest-level exercise you complete, captured in writing on the Sprint Notes paper for Days 1-4 (revisions due by Day 5)</dd>
+  <dd>the highest-level exercise you complete, not reported in Alma, captured in writing on the Sprint Notes paper for Days 1-4 (revisions due by Day 5)</dd>
   <dt>HOWLs Participation</dt>
   <dd>average of your 4 Daily Scores, reported in Alma after class meets on Day 5</dd>
   <dt>Citizenship Formative</dt>
-  <dd>homework announced on Day 1 and due on Day 5</dd>
+  <dd>homework announced on Day 1 and due at the start of class on Day 5</dd>
   <dt>Creating Formative</dt>
-  <dd>number of specs you implement in a custom version of the [sample solution code](https://woodstockcs.github.io/csp-class-docs/dna/problem/#sample-solution-code), worked on during and after class on Day 5, presented during class on Day 6, and reported in Alma during class on Day 6</dd>
+  <dd>your customized version of DNA, worked on during and after class on Day 5, presented during class on Day 6, and reported in Alma during class on Day 6</dd>
 </dl>
 
