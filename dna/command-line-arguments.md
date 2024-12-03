@@ -77,7 +77,7 @@ Now run that program from the command line 4 times, like below.
 
 <br><br>
 
-## Walkthrough
+# Walkthrough
 
 
 1. Grab the [walkthrough paper](https://docs.google.com/document/d/1tYE56_PYmzqzeV2K0PW0Lw6qhjAlTiHEoL3dY_jp9ug/edit?usp=sharing) from the classroom.
@@ -95,7 +95,7 @@ Now run that program from the command line 4 times, like below.
 
 <br><br>
 
-## Exercises
+# Exercises
 
 <!-- prettier-ignore-start -->
 
