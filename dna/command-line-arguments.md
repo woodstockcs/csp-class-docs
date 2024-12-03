@@ -104,7 +104,7 @@ Now run that program from the command line 4 times, like below.
 2-Approaching
 {: .label .label-green }
 
-1. Open the `dna.py` file provided in the distribution code. (Don't have the distribution code yet? [See here](https://woodstockcs.github.io/csp-class-docs/dna/introduction/#set-up).
+1. Open the `dna.py` file provided in the distribution code. (Don't have the distribution code yet? [See here](https://woodstockcs.github.io/csp-class-docs/dna/introduction/#set-up).)
 1. Under `# Check for command-line usage`, write a Guard Clause that requires 3 arguments to pass. Meaning: If there are **not** 3 arguments, print a usage message and exit
 1. After passing the Guard Clause, show a user-friendly log message indicating the names of the two input files that will be used.
 
