@@ -71,7 +71,7 @@ Now run that program from the command line 4 times, like below.
 
 > Write in your sprint notes...
 >
-> three things you notice or wonder about `arguments.py` and its output.
+> three things you notice or wonder about `two_words.py` and its output.
 
 <br><br>
 
