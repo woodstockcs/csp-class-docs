@@ -78,7 +78,11 @@ Now run that program from the command line 4 times, like below.
 
 > Before continuing:
 >
-> Make sure your name is on the walkthrough paper, drop it in the INBOX, then check the box in your sprint notes.
+> Check the box in your sprint notes to indicate that you finished this task.
+>
+> You might find this paper helpful in the exercises below.
+>
+> After that, hang on to this paper because you'll use it again on Assessment Day.
 
 <br><br>
 
