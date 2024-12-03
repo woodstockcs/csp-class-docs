@@ -8,6 +8,8 @@ layout: default
 # Topic
 Today's topic is **Command-Line Arguments**.
 
+All the purple boxes below indicate things to write on your [sprint notes](https://docs.google.com/document/d/1OYb_ZXyfsvn03kMQ8d-ZoNxDCCvYakIet19lYNmfJyk/edit?tab=t.0).
+
 <br><br>
 
 # Purpose
