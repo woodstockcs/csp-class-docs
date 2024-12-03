@@ -127,8 +127,8 @@ print("Hello", _______)
 3-Proficient
 {: .label .label-blue }
 
-1. Open the dna.py file provided in the distribution code.
-1. Under "# Check for command-line usage", write a Guard Clause that requires 3 arguments to continue. Meaning: If there are **not** 3 arguments, print a usage message and exit
+1. Open the `dna.py` file provided in the distribution code.
+1. Under `# Check for command-line usage`, write a Guard Clause that requires 3 arguments to pass. Meaning: If there are **not** 3 arguments, print a usage message and exit
 1. After passing the Guard Clause, show a user-friendly log message indicating the names of the two input files that will be used.
 
 {: .note-title}
