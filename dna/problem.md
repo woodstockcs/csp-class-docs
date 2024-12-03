@@ -1,5 +1,5 @@
 ---
-title: Understanding the Problem
+title: 0. Understanding the Problem
 parent: DNA
 nav_order: 1
 layout: default
