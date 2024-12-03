@@ -27,21 +27,24 @@ Today's topic is **Command-Line Arguments**.
 
 # Sandbox
 
-Paste this code into a new file called `arguments.py`.
+Paste this code into a new file called `two-words.py`.
+
 ```python
 import sys
 
 print("You gave me", len(sys.argv), "command-line arguments.")
-print("The first one is:", sys.argv[0])
-print("The second one is:", sys.argv[1])
 
 if len(sys.argv) > 3:
-    print("Hmm... I don't really want more than 3 arguments.")
+    print("Usage: python two-words.py [first word] [second word]")
     sys.exit()
 
+print("The program name is:", sys.argv[0])
+print("The first word is:", sys.argv[1])
+print("The second word is:", sys.argv[2])
+
 print()
-print("OK, here's what you told me:")
-for word in sys.argv[1:]:
+print("Here are your words again:")
+for word in sys.argv[1:3]:
     print(word + " ")
 ```
 
@@ -53,12 +56,14 @@ Now run that program from the command line 4 times, like below.
 >
 > After each run, save some typing by pressing the `up-arrow` key and then just adding one word.
 
+
 ```
 #   python arguments.py
 #   python arguments.py Computer
 #   python arguments.py Computer Science
 #   python arguments.py Computer Science Rocks
 ```
+
 
 {: .note-title}
 
@@ -78,7 +83,7 @@ Now run that program from the command line 4 times, like below.
 
 > Before continuing:
 >
-> Check the box in your sprint notes to indicate that you finished this task.
+> Check the box in your sprint notes to indicate that you annotated the paper.
 >
 > You might find this paper helpful in the exercises below.
 >
@@ -90,17 +95,42 @@ Now run that program from the command line 4 times, like below.
 
 <!-- prettier-ignore-start -->
 
-### hello.py
+### dna.py
 {: .d-inline-block }
 2-Approaching
 {: .label .label-green }
+
+1. Open the `dna.py` file provided in the distribution code.
+1. Under `# Check for command-line usage`, write a Guard Clause that requires 3 arguments to pass. Meaning: If there are **not** 3 arguments, print a usage message and exit
+1. After passing the Guard Clause, show a user-friendly log message indicating the names of the two input files that will be used.
+
+
+{: .highlight-title}
+
+> Hint
+>
+> Try this on your own first, then have a look at the [sample solution code](https://docs.google.com/document/d/1uEKkKnHvat5I9iBBJ1sz58rK8TULenc6e44r36M6vcs/edit?tab=t.0) to check and fix your code.
+
+
+{: .note-title}
+
+> Exercise Note
+>
+> Why is it good for a Guard Clause to print a usage message?
+
+<br><br>
+
+### hello.py
+{: .d-inline-block }
+3-Proficient
+{: .label .label-blue }
+
 
 1. Copy/paste the code below into a new file called `hello.py`.
 1. Update the code according to the comments.
 
 ```python
 # DNA Exercise: hello.py
-# Update the code below so it:
 # - Takes a name as command line argument
 # - Uses a Guard Clause to print a usage message and exit (if needed)
 # - Prints "Hello, [name]!"
@@ -122,22 +152,7 @@ print("Hello", _______)
 
 <br><br>
 
-### dna.py
-{: .d-inline-block }
-3-Proficient
-{: .label .label-blue }
 
-1. Open the `dna.py` file provided in the distribution code.
-1. Under `# Check for command-line usage`, write a Guard Clause that requires 3 arguments to pass. Meaning: If there are **not** 3 arguments, print a usage message and exit
-1. After passing the Guard Clause, show a user-friendly log message indicating the names of the two input files that will be used.
-
-{: .note-title}
-
-> Exercise Note
->
-> Why is it good for a Guard Clause to print a usage message?
-
-<br><br>
 
 ### repeat.py
 {: .d-inline-block }
