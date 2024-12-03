@@ -116,7 +116,7 @@ Now run that program from the command line 4 times, like below.
 
 {: .note-title}
 
-> Exercise Note
+> Write in your sprint notes...
 >
 > Why is it good for a Guard Clause to print a usage message?
 
@@ -148,7 +148,7 @@ print("Hello", _______)
 
 {: .note-title}
 
-> Exercise Note
+> Write in your sprint notes...
 >
 > What happens if the user just runs `python hello.py`?
 
@@ -177,7 +177,7 @@ import sys
 
 {: .note-title}
 
-> Exercise Note
+> Write in your sprint notes...
 >
 > What's a code snippet that is important to the functionality of your program?
 
@@ -204,7 +204,7 @@ import sys
 
 {: .note-title}
 
-> Exercise Note
+> Write in your sprint notes...
 >
 > How many times does your program contain the keyword `if`?
 
