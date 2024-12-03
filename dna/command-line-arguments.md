@@ -1,6 +1,6 @@
 ---
 title: 1. Command-Line Arguments
-parent: DNA
+parent: DNA Sprint
 nav_order: 2
 layout: default
 ---
