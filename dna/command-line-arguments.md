@@ -15,11 +15,11 @@ Today's topic is **Command-Line Arguments**.
 <table>
   <tr>
     <th>Learning:</th>
-    <td>use command-line arguments with error handling</td>
+    <td style="width:100%">use command-line arguments with error handling</td>
   </tr>
   <tr>
     <th>DNA Project:</th>
-    <td>accept two file names as command-line arguments</td>
+    <td style="width:100%">accept two file names as command-line arguments</td>
   </tr>
 </table>
 
@@ -27,7 +27,7 @@ Today's topic is **Command-Line Arguments**.
 
 # Sandbox
 
-Paste this code into a new file called `two-words.py`.
+Paste this code into a new file called `two_words.py`.
 
 ```python
 import sys
@@ -35,7 +35,7 @@ import sys
 print("You gave me", len(sys.argv), "command-line arguments.")
 
 if len(sys.argv) > 3:
-    print("Usage: python two-words.py [first word] [second word]")
+    print("Usage: python two_words.py [first word] [second word]")
     sys.exit()
 
 print("The program name is:", sys.argv[0])
@@ -50,20 +50,22 @@ for word in sys.argv[1:3]:
 
 Now run that program from the command line 4 times, like below.
 
+```
+#   python two_words.py
+#   python two_words.py Computer
+#   python two_words.py Computer Science
+#   python two_words.py Computer Science Rocks
+```
+
+<br>
+
 {: .highlight-title}
 
 > Hint
 >
 > After each run, save some typing by pressing the `up-arrow` key and then just adding one word.
 
-
-```
-#   python arguments.py
-#   python arguments.py Computer
-#   python arguments.py Computer Science
-#   python arguments.py Computer Science Rocks
-```
-
+<br>'
 
 {: .note-title}
 
