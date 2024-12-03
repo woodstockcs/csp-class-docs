@@ -65,7 +65,7 @@ Now run that program from the command line 4 times, like below.
 >
 > After each run, save some typing by pressing the `up-arrow` key and then just adding one word.
 
-<br>'
+<br>
 
 {: .note-title}
 
