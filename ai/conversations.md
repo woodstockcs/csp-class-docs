@@ -24,7 +24,7 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 <br><br>
 
 # Sandbox
-Visit chat.openai.com and log in with your school account.
+Visit [chatgpt.com](https://www.chatgpt.com) and log in with your school google account.
 
 1. Ask the AI to tell you a joke about programming
 2. Ask it to explain the joke
@@ -41,7 +41,7 @@ Visit chat.openai.com and log in with your school account.
 
 # Walkthrough
 
-1. 
+(in class)
 
 <br><br>
 
@@ -58,7 +58,7 @@ Ask the AI to:
 1. Write a very short story about a robot going to high school
 2. Rewrite it in a different style (horror, comedy, or romance)
 
-{: .highlight-title}
+{: .note-title}
 
 > Write in your sprint notes...
 >
@@ -95,6 +95,7 @@ Ask the AI to:
 2. Ask it to solve the riddle step by step
 3. Compare its solution to the answer (a keyboard)
 4. Ask it to create a similar riddle about a different computer part
+   
 {: .note-title}
 
 > Write in your sprint notes...
