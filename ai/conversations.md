@@ -108,7 +108,9 @@ Ask the AI to:
 {: .d-inline-block }
 5,000 Fake Bonus Points
 {: .label .label-red }
-Have a short conversation with the AI about artificial intelligence itself. Ask it what it thinks makes a good conversation between humans and AI. See if you agree with its thoughts!
+1. Have a short conversation with the AI about artificial intelligence itself.
+2. Ask it what it thinks makes a good conversation between humans and AI.
+3. See if you agree with its thoughts!
 
 {: .note-title}
 
