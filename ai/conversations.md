@@ -120,4 +120,13 @@ Ask the AI to:
 
 <br><br>
 
+### Mollick Article
+{: .d-inline-block }
+Infinity Fake Bonus Points
+{: .label .label-red }
+Read [this Mollick article](https://www.oneusefulthing.org/p/getting-started-with-ai-good-enough)
+
+
+<br><br>
+
 <!-- prettier-ignore-end -->
