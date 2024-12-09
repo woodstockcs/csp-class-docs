@@ -195,7 +195,7 @@ import sys
 
 ```python
 # DNA Exercise: calc.py
-# - Accepts 3 args: two numbers and an operator (+,-,*,/)
+# - Accepts 3 args: two numbers and an operator (+,-,x,/)
 # - Uses guard clauses to check that the user provided
 #   a number, a valid operator, and another number
 # - Prints "Usage: python calculator.py num1 op num2" if invalid
@@ -203,6 +203,13 @@ import sys
 # - Handles divide-by-zero gracefully
 
 ```
+
+{: .highlight-title}
+
+> Note
+>
+> For this exercise, accept `x` for multipy, not `*`. The reason? The shell, where you type the command-line arguments, treats `*` as a special character. If you type `*` as a command-line argument, the shell will replace your `*` with a list of all the filenames in the current directory and send that to python. That's definitely not what we want! So ask the user to use `x` if they want to multiply.
+
 
 {: .note-title}
 
