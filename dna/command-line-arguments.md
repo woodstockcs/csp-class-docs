@@ -36,7 +36,7 @@ import sys
 
 print("You gave me", len(sys.argv), "command-line arguments.")
 
-if len(sys.argv) > 3:
+if len(sys.argv) != 3:
     print("Usage: python two_words.py [first word] [second word]")
     sys.exit()
 
