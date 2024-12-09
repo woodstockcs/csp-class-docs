@@ -113,7 +113,7 @@ Now run that program from the command line 4 times, like below.
 
 > Hint
 >
-> Try this on your own first, then have a look at the [sample solution code](https://docs.google.com/document/d/1uEKkKnHvat5I9iBBJ1sz58rK8TULenc6e44r36M6vcs/edit?tab=t.0) to check and fix your code.
+> Try this on your own first, then have a look at the _STEP 1_ of the [sample solution code](https://docs.google.com/document/d/1uEKkKnHvat5I9iBBJ1sz58rK8TULenc6e44r36M6vcs/edit?tab=t.0) to check and fix your code.
 
 
 {: .note-title}
