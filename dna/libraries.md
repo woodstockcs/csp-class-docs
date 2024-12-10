@@ -1,3 +1,4 @@
+<!--
 ---
 title: 2. Libraries
 parent: DNA Sprint
@@ -64,7 +65,7 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 
 # Exercises
 
-<!-- prettier-ignore-start -->
+
 
 ### dna.py
 {: .d-inline-block }
@@ -176,8 +177,12 @@ one more claude
 
 > Write in your sprint notes...
 >
+>
+>
 > How many times does your program contain the keyword `if`?
 
 <br><br>
 
-<!-- prettier-ignore-end -->
+
+
+ -->
