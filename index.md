@@ -5,13 +5,12 @@ layout: home
 ---
 
 {: .important-title }
+
 > Quick Links
 >
 > - [VS Code](https://cs50.dev)
 > - [Our Google Classroom](https://classroom.google.com/w/NzA4MjAxNTg5MTUx/t/all)
 > - [Request a Quiz Retake](https://docs.google.com/forms/d/e/1FAIpQLSc07ncTcubrznE50KhfxI8mO76cPx7u08lYJcwJSDu3ugwt9w/viewform)
->
-
 
 # Home
 
@@ -73,7 +72,6 @@ Your grade is based on these Anchor Standards: Citizenship, Testing and Refining
 |                      **Citizenship** | your ability to _communicate_ about technical things and the extent to which you use that ability to _support_ other people | _engagement credits_, which you accrue through shared notetaking, reflections on the impacts of computing, and code reviews                            | other students often depend on you to complete prep work before class (aka "homework"), so _late work does not earn engagement credits_      |
 |             **Testing and Refining** | your ability to apply basic technical skills when _reading and fixing code_                                                 | _skill quizzes_, in which you are given a block of code to describe and change according to a specific standard without using notes or other resources | quizzes are offered on specific days in class, but our abilities improve over time, so _infinite retakes are available for a period of time_ |
 | **Creating Computational Artifacts** | your ability to design and build _projects that are useful_ for other people                                                | _project specifications_, which are checklists you use to verify that your project contains all the required components                                | projects exist to help people and projects only get good after cycles of feedback, so _late revisions are accepted for a period of time_.    |
-
 
 # Values and Agreements
 
