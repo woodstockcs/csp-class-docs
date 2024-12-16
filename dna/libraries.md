@@ -30,159 +30,163 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 
 # Sandbox
 
-```
-(code to read)
+Create a file called `deck.py` and paste this code:
 
-(about lists?)
+```python
+import random
+
+# A mini card game setup
+cards = ["Jack", "Queen", "King"]
+print("Original deck:", cards)
+
+# Shuffle the cards
+random.shuffle(cards)
+print("After shuffle:", cards)
+
+# Draw a random card
+chosen = random.choice(cards)
+print("You drew:", chosen)
 ```
+
 <br>
+Try these experiments:
+
+1. Run the program 10 times. Keep track of how many times you draw each card.
+1. Add two more cards to the list (like "Ace" and "10").
+1. Instead of drawing one card, draw two cards (use random.choice() twice).
+1. Create a new list with numbers 1-6 (like a die) and use random.choice() on that instead.
 
 {: .note-title}
 
 > Write in your sprint notes...
-> review Qs.
-> then a guess or two about that code. that we can talk about
+> 
+> something else you might use `random` for
 
 <br><br>
 
 # Walkthrough
 
 
-1. Grab the [walkthrough paper](https://docs.google.com/document/d/1tYE56_PYmzqzeV2K0PW0Lw6qhjAlTiHEoL3dY_jp9ug/edit?usp=sharing) from the classroom.
-1. Annotate the walkthrough paper while you watch [this video](https://youtu.be/EHi0RDZ31VA?start=7235&end=7426) (2:00:35 - 2:03:46).
+1. Grab a blank paper and take notes while you watch [this video](https://www.youtube.com/watch?v=MztLZWibctI) (0:00:00 - 0:17:16).
 
 {: .note-title}
 
 > Before continuing:
 >
-> Check the box in your sprint notes to indicate that you annotated the paper.
+> Check the box in your sprint notes to indicate that you watched the video and took notes.
 >
-> You might find this paper helpful in the exercises below.
+> You might find your notes helpful in the exercises below.
 >
-> After that, hang on to this paper because you'll use it again on Assessment Day.
+> After that, hang on to your notes because you'll use them again on Assessment Day.
 
 <br><br>
 
 # Exercises
 
 
+<!-- prettier-ignore-start -->
 
-### dna.py
+### coin_flipper.py
 {: .d-inline-block }
 2-Approaching
 {: .label .label-green }
 
-change up one of the exercises in claude
-
-{: .highlight-title}
-
-> Hint
->
-> Try this on your own first, then have a look at the _STEP 1_ of the [sample solution code](https://docs.google.com/document/d/1uEKkKnHvat5I9iBBJ1sz58rK8TULenc6e44r36M6vcs/edit?tab=t.0) to check and fix your code.
-
+Create a program that:
+- Takes a number as command line argument
+- Flips a coin that many times
+- Prints the percentage of heads vs tails
 
 {: .note-title}
 
 > Write in your sprint notes...
 >
-> Why is it good for a Guard Clause to print a usage message?
+> the file name of your completed exercise.
 
 <br><br>
 
-### hello.py
+### dice_game.py
 {: .d-inline-block }
 3-Proficient
 {: .label .label-blue }
+Create a dice game that:
+- Rolls two dice
+- Lets the user guess if the sum will be over/under 7
+- Keeps track of wins/losses
 
-update the dna code. give instructions step by step. make sure you run it and get X.
-
-
-```python
-# DNA Exercise: hello.py
-# - Takes a name as command line argument
-# - Uses a Guard Clause to print a usage message and exit (if needed)
-# - Prints "Hello, [name]!"
-
-import sys
-
-if len(sys._____)  ___  ___:
-    print("Usage: python _____ _____")
-    sys.______
-
-print("Hello", _______)
 ```
 
 {: .note-title}
 
 > Write in your sprint notes...
 >
-> What happens if the user just runs `python hello.py`?
+> the file name of your completed exercise.
 
 <br><br>
 
 
 
-### repeat.py
+### food_fight.py
 {: .d-inline-block }
 4-Distinguished
 {: .label .label-red }
 
-bigger claude
+Create a program that simulates silly food battles:
+- Reads foods.csv 
+- Picks two random foods to battle
+- Uses just one stat (messiness) to determine winner
+- Prints fun battle messages
 
-```python
-# DNA Exercise: repeat.py
-# - Accepts a word and number (e.g. "python repeat.py hello 3")
-# - Prints the word that many times
-# - Uses guard clauses for validation
-# - Converts string number to integer safely
-
-import sys
-
+Here's foods.csv:
+```
+food,messiness
+spaghetti,8
+jello,6
+banana,4
+pizza,7
+taco,9
+sandwich,3
+pudding,5
 ```
 
+Sample Solution:
+```python
+import random
+import csv
+
+# Read the foods
+with open("foods.csv") as f:
+    foods = list(csv.DictReader(f))
+
+# Keep battling until user quits
+while True:
+    # Pick two random foods
+    food1, food2 = random.sample(foods, 2)
+    
+    print(f"\n🥊 FOOD FIGHT! 🥊")
+    print(f"{food1['food']} vs {food2['food']}")
+    
+    # Add some randomness to the messiness
+    power1 = int(food1['messiness']) + random.randint(1,3)
+    power2 = int(food2['messiness']) + random.randint(1,3)
+    
+    # Determine winner
+    if power1 > power2:
+        print(f"{food1['food']} wins by making a bigger mess!")
+    else:
+        print(f"{food2['food']} wins by making a bigger mess!")
+    
+    # Play again?
+    again = input("\nAnother battle? (y/n) ")
+    if again.lower() != 'y':
+        break
+  ```
 {: .note-title}
 
 > Write in your sprint notes...
 >
-> What's a code snippet that is important to the functionality of your program?
-
-<br><br>
-
-### calc.py
-{: .d-inline-block }
-5,000 Fake Bonus Points
-{: .label .label-red }
-
-one more claude
-
-```python
-# DNA Exercise: calc.py
-# - Accepts 3 args: two numbers and an operator (+,-,x,/)
-# - Uses guard clauses to check that the user provided
-#   a number, a valid operator, and another number
-# - Prints "Usage: python calculator.py num1 op num2" if invalid
-# - Prints the expression and its result
-# - Handles divide-by-zero gracefully
-
-```
-
-{: .highlight-title}
-
-> Note
->
-> For this exercise, accept `x` for multipy, not `*`. The reason? The shell, where you type the command-line arguments, treats `*` as a special character. If you type `*` as a command-line argument, the shell will replace your `*` with a list of all the filenames in the current directory and send that to python. That's definitely not what we want! So ask the user to use `x` if they want to multiply.
-
-
-{: .note-title}
-
-> Write in your sprint notes...
->
->
->
-> How many times does your program contain the keyword `if`?
+> the file name of your completed exercise.
 
 <br><br>
 
 
-
- -->
+<!-- prettier-ignore-end -->
