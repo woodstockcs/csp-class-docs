@@ -113,7 +113,6 @@ Create a dice game that:
 - Lets the user guess if the sum will be over/under 7
 - Keeps track of wins/losses
 
-```
 
 {: .note-title}
 
@@ -136,7 +135,7 @@ Create a program that simulates silly food battles:
 - Uses just one stat (messiness) to determine winner
 - Prints fun battle messages
 
-Here's foods.csv:
+Start by creating a file called `foods.csv` that has this in it:
 ```
 food,messiness
 spaghetti,8
