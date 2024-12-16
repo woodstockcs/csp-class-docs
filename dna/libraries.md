@@ -108,6 +108,7 @@ Create a program that:
 {: .d-inline-block }
 3-Proficient
 {: .label .label-blue }
+
 Create a dice game that:
 - Rolls two dice
 - Lets the user guess if the sum will be over/under 7
