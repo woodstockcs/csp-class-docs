@@ -1,4 +1,3 @@
-<!--
 ---
 title: 2. Libraries
 parent: DNA Sprint
@@ -21,8 +20,8 @@ All the purple boxes below indicate things to write on your [sprint notes](https
     <td style="width:100%">learn how to use functions from libraries</td>
   </tr>
   <tr>
-    <th>DNA Project:</th>
-    <td style="width:100%">use csv library to bring data in from files</td>
+    <th>Project:</th>
+    <td style="width:100%">use random library</td>
   </tr>
 </table>
 
