@@ -21,8 +21,8 @@ All the purple boxes below indicate things to write on your [sprint notes](https
     <td style="width:100%">learn how to use functions from libraries</td>
   </tr>
   <tr>
-    <th>DNA Project:</th>
-    <td style="width:100%">use csv library to bring data in from files</td>
+    <th>Project:</th>
+    <td style="width:100%">use random library</td>
   </tr>
 </table>
 
@@ -30,19 +30,37 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 
 # Sandbox
 
-```
-(code to read)
+Create a file called `deck.py` and paste this code:
 
-(about lists?)
+```python
+import random
+
+# A mini card game setup
+cards = ["Jack", "Queen", "King"]
+print("Original deck:", cards)
+
+# Shuffle the cards
+random.shuffle(cards)
+print("After shuffle:", cards)
+
+# Draw a random card
+chosen = random.choice(cards)
+print("You drew:", chosen)
 ```
 
 <br>
+Try these experiments:
+
+1. Run the program 10 times. Keep track of how many times you draw each card.
+1. Add two more cards to the list (like "Ace" and "10").
+1. Instead of drawing one card, draw two cards (use random.choice() twice).
+1. Create a new list with numbers 1-6 (like a die) and use random.choice() on that instead.
 
 {: .note-title}
 
 > Write in your sprint notes...
-> review Qs.
-> then a guess or two about that code. that we can talk about
+>
+> something else you might use `random` for
 
 <br><br>
 
@@ -55,11 +73,11 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 
 > Before continuing:
 >
-> Check the box in your sprint notes to indicate that you annotated the paper.
+> Check the box in your sprint notes to indicate that you watched the video and took notes.
 >
-> You might find this paper helpful in the exercises below.
+> You might find your notes helpful in the exercises below.
 >
-> After that, hang on to this paper because you'll use it again on Assessment Day.
+> After that, hang on to your notes because you'll use them again on Assessment Day.
 
 <br><br>
 
@@ -83,7 +101,7 @@ change up one of the exercises in claude
 
 > Write in your sprint notes...
 >
-> Why is it good for a Guard Clause to print a usage message?
+> the file name of your completed exercise.
 
 <br><br>
 
@@ -114,7 +132,7 @@ print("Hello", _______)
 
 > Write in your sprint notes...
 >
-> What happens if the user just runs `python hello.py`?
+> the file name of your completed exercise.
 
 <br><br>
 

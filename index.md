@@ -81,3 +81,25 @@ That understanding reveals some _shared values_, and those shared values drive o
 
 In Week 2 of school, this class identified the following values as important to us.
 ![c-csp-values-2425](https://github.com/user-attachments/assets/cf4b0a62-d0e8-4dae-9f05-a5dfc1ef79de){: width="50%"}
+
+# Some Great Videos for Coding
+
+### p5js
+- https://www.youtube.com/@TheCodingTrain/courses
+- https://thecodingtrain.com/tracks/code-programming-with-p5-js
+- https://thecodingtrain.com/tracks/data-and-apis-in-javascript
+
+### How Computers Works
+- Tom Scott's 'The Basics': https://www.youtube.com/playlist?list=PL96C35uN7xGLLeET0dOWaKHkAlPsrkcha
+- TED Ed: https://www.youtube.com/playlist?list=PLJicmE8fK0Eg2KiDF2ELbAHI_LCbKgjsP
+- Sebastian Lague's 'Exploring How...':
+  
+### Big Questions
+- Hannah Fry: https://www.youtube.com/@fryrsquared
+- Grant Sanderson on Numberphile: https://www.youtube.com/playlist?list=PLt5AfwLFPxWKskQnjSsp3t8Uw2XMz5xYj
+- https://www.youtube.com/playlist?list=PL96C35uN7xGLLeET0dOWaKHkAlPsrkcha
+- Code.org everything: https://www.youtube.com/@codeorg/playlists
+
+### AP CSP Exam Prep
+- Cobi Computer Science: https://www.youtube.com/playlist?list=PLySgMiWoycp0FNIM9f0xfIHNUipTpn_RS
+- 
