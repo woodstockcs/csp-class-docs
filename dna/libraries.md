@@ -1,4 +1,3 @@
-<!--
 ---
 title: 2. Libraries
 parent: DNA Sprint
@@ -7,6 +6,7 @@ layout: default
 ---
 
 # Topic
+
 Today's topic is **Libraries**.
 
 All the purple boxes below indicate things to write on your [sprint notes](https://docs.google.com/document/d/1OYb_ZXyfsvn03kMQ8d-ZoNxDCCvYakIet19lYNmfJyk/edit?tab=t.0).
@@ -35,6 +35,7 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 
 (about lists?)
 ```
+
 <br>
 
 {: .note-title}
@@ -46,7 +47,6 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 <br><br>
 
 # Walkthrough
-
 
 1. Grab the [walkthrough paper](https://docs.google.com/document/d/1tYE56_PYmzqzeV2K0PW0Lw6qhjAlTiHEoL3dY_jp9ug/edit?usp=sharing) from the classroom.
 1. Annotate the walkthrough paper while you watch [this video](https://youtu.be/EHi0RDZ31VA?start=7235&end=7426) (2:00:35 - 2:03:46).
@@ -65,9 +65,8 @@ All the purple boxes below indicate things to write on your [sprint notes](https
 
 # Exercises
 
-
-
 ### dna.py
+
 {: .d-inline-block }
 2-Approaching
 {: .label .label-green }
@@ -80,7 +79,6 @@ change up one of the exercises in claude
 >
 > Try this on your own first, then have a look at the _STEP 1_ of the [sample solution code](https://docs.google.com/document/d/1uEKkKnHvat5I9iBBJ1sz58rK8TULenc6e44r36M6vcs/edit?tab=t.0) to check and fix your code.
 
-
 {: .note-title}
 
 > Write in your sprint notes...
@@ -90,12 +88,12 @@ change up one of the exercises in claude
 <br><br>
 
 ### hello.py
+
 {: .d-inline-block }
 3-Proficient
 {: .label .label-blue }
 
 update the dna code. give instructions step by step. make sure you run it and get X.
-
 
 ```python
 # DNA Exercise: hello.py
@@ -120,9 +118,8 @@ print("Hello", _______)
 
 <br><br>
 
-
-
 ### repeat.py
+
 {: .d-inline-block }
 4-Distinguished
 {: .label .label-red }
@@ -149,6 +146,7 @@ import sys
 <br><br>
 
 ### calc.py
+
 {: .d-inline-block }
 5,000 Fake Bonus Points
 {: .label .label-red }
@@ -172,17 +170,10 @@ one more claude
 >
 > For this exercise, accept `x` for multipy, not `*`. The reason? The shell, where you type the command-line arguments, treats `*` as a special character. If you type `*` as a command-line argument, the shell will replace your `*` with a list of all the filenames in the current directory and send that to python. That's definitely not what we want! So ask the user to use `x` if they want to multiply.
 
-
 {: .note-title}
 
 > Write in your sprint notes...
 >
->
->
 > How many times does your program contain the keyword `if`?
 
 <br><br>
-
-
-
- -->
