@@ -12,6 +12,10 @@ layout: home
 > - [Our Google Classroom](https://classroom.google.com/w/NzA4MjAxNTg5MTUx/t/all)
 > - [Request a Quiz Retake](https://docs.google.com/forms/d/e/1FAIpQLSc07ncTcubrznE50KhfxI8mO76cPx7u08lYJcwJSDu3ugwt9w/viewform)
 
+
+# Daily Slides
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSy56l_bhZiX5B5oBXuKjizQo5zGTq-340GVu7Up6OMbCDvECllF46H0CzHPwaaJy0PIxuU2YdQApiU/embed?start=false&loop=false" frameborder="2" width="800" height="500" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
 # Home
 
 This is the CSP Class Docs. It is a website that houses all the documents and resources used by the AP Computer Science Principles (CSP) class at Woodstock Union High School Middle School (WUHSMS) for the 2024-2025 school year.
@@ -102,4 +106,4 @@ In Week 2 of school, this class identified the following values as important to 
 
 ### AP CSP Exam Prep
 - Cobi Computer Science: https://www.youtube.com/playlist?list=PLySgMiWoycp0FNIM9f0xfIHNUipTpn_RS
-- 
+
